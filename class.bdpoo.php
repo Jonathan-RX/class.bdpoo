@@ -1,20 +1,5 @@
 <?php
-/*
-Gestion de base de donnée
-Date : 12/2009
-Dernière modification : 06/2015 -> Ajout de la config
-Auteur: Jonathan RAVIX
-Cette classe à pour but de simplifier l'accès à une base de donnée en utilisant une méthode de programmation proche de celle de wordpress.
-Comment l'utiliser :
-Avant de l'utiliser, il convient de définir les variables $host, $login, $password et basename en fonction de votre serveur et base de donnée.
-Script d'exmple :
-$mybd = new Bd;
-$mybd->config('hote','utilisateur','mot de passe','base de donnée');
-$mybd->update('matable', array('info'=>'Mon titre d\'information'), array('info'=>'My info'));
-$tables = $mybd->get_results('SELECT * FROM matable');
-print_r($tables);
-echo '<br /><br />' . $tables[0]->info;
-*/
+
 class Bd{
 	private $host = 'localhost';
 	private $login = 'root';

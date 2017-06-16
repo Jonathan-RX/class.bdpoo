@@ -16,7 +16,7 @@ Gestion de base de donnée Mysql "perso"
 * [Contribuer / Reporter un problème](#contribuer--reporter-un-problème)
 
 *Date : 12/2009*
-*Dernière modification : 06/2015 -> Ajout de la config*
+*Dernière modification : 06/2017 -> Utilisation de Mysqli*
 
 Cette classe à pour but de simplifier l'accès à une base de donnée en utilisant une méthode de programmation proche de celle de wordpress.
 
